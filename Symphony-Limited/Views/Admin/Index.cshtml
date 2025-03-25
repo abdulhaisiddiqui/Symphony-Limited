@@ -1,0 +1,143 @@
+﻿@model HomePageViewModel
+
+@{
+    ViewData["Title"] = "Home";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+
+<!-- Custom CSS for Home Page -->
+<style>
+    .welcome-section {
+        background: linear-gradient(135deg, #6a11cb, #2575fc);
+        color: white;
+        padding: 40px;
+        border-radius: 15px;
+        margin-bottom: 30px;
+    }
+
+        .welcome-section h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+
+        .welcome-section p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+    .stats-card {
+        background: white;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+        .stats-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .stats-card h3 {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .stats-card p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+    .recent-activities {
+        background: white;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-top: 30px;
+    }
+
+        .recent-activities h2 {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+    .activity-item {
+        padding: 10px 0;
+        border-bottom: 1px solid #eee;
+    }
+
+        .activity-item:last-child {
+            border-bottom: none;
+        }
+
+        .activity-item p {
+            margin: 0;
+            font-size: 1rem;
+            color: #666;
+        }
+</style>
+
+<!-- Home Page Content -->
+<div class="container-fluid">
+    <!-- Welcome Section -->
+    <div class="welcome-section text-center">
+        <h1>Welcome to Admin Dashboard</h1>
+        <p>Manage your students, payments, and courses efficiently.</p>
+    </div>
+
+    <!-- Quick Stats Section -->
+    <div class="row">
+        <div class="col-md-4">
+            <div class="stats-card text-center">
+                <h3>Total Students</h3>
+                <p>@Model.TotalStudents</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="stats-card text-center">
+                <h3>Total Payments</h3>
+                <p>@Model.TotalPayments.ToString("C")</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="stats-card text-center">
+                <h3>Total Courses</h3>
+                <p>@Model.TotalCourses</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Recent Activities Section -->
+    <div class="recent-activities">
+        <h2>Recent Activities</h2>
+
+        <!-- Recent Students -->
+        <h3>Recent Students</h3>
+        @foreach (var student in Model.RecentStudents)
+        {
+            <div class="activity-item">
+                <p>@student.first_name @student.last_name registered on @student.date_of_birth</p>
+            </div>
+        }
+
+        <!-- Recent Payments -->
+        <h3>Recent Payments</h3>
+        @foreach (var payment in Model.RecentPayments)
+        {
+            <div class="activity-item">
+                <p>Payment of @payment.Amount.ToString("C") received on @payment.PaymentDate.ToShortDateString()</p>
+            </div>
+        }
+
+        <!-- Active Courses -->
+        <h3>Active Courses</h3>
+        @foreach (var course in Model.ActiveCourses)
+        {
+            <div class="activity-item">
+                <p>@course.course_name (Instructor: @course.course_instructor)</p>
+            </div>
+        }
+    </div>
+</div>

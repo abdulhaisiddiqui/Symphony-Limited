@@ -1,0 +1,29 @@
+﻿@model Course_Enrollment
+@{
+    ViewData["Title"] = "deletePermissionCourseEnrollment";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+
+
+
+<div class="container-fluid px-4">
+    <h2 class="mt-4 text-center text-uppercase" style="letter-spacing:4px">Are You Sure You Wants To Delete This enrollment?</h2>
+</div>
+
+<div class="row">
+    <div claas="col-md-2"></div>
+    <div claas="col-md-8">
+        <ul class="list-group">
+
+            <li class="list-group-item">Enrollment Id: @Model.enrollmentId</li>
+            <li class="list-group-item">Student Id: @Model.student_id</li>
+            <li class="list-group-item">Course Id: @Model.course_id</li>
+            <li class="list-group-item">Enrollment Date: @Model.enrollment_date'</li>
+            <li class="list-group-item">Fee Paid: @Model.fee_paid</li>
+            <li class="list-group-item">Payment Status: @Model.payment_status</li>
+        </ul>
+        <a class="btn btn-warning my-3" asp-action="fetchCourseEnrollment" asp-controller="Admin">Back To List</a>
+        <a class="btn btn-danger my-3" asp-action="deleteCourseEnrollment" asp-controller="Admin" asp-route-id="@Model.enrollmentId">Delete</a>
+    </div>
+    <div claas="col-md-2"></div>
+</div>

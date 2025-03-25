@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewData["Title"] = "courseEnrollment";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+<h1>Register for an Entrance Exam</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Exam Name</th>
+            <th>Exam Date</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var exam in Model)
+        {
+            <tr>
+                <td>@exam.examName</td>
+                <td>@exam.examDate</td>
+                <td>
+                    <form asp-action="RegisterForCourse" asp-controller="Student" method="post">
+                        <input type="hidden" name="enrollmentId" value="@exam.examId" />
+                        <input type="hidden" name="studentId" value="" /> <!-- Replace with actual student ID -->
+                        <button type="submit" class="btn btn-primary">Register</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "addEntranceExam";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+
+<div class="container-fluid px-4">
+    <h2 class="mt-4 text-center text-uppercase" style="letter-spacing:4px">Add Exam</h2>
+</div>
+
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <form method="post" asp-action="addEntranceExam" asp-controller="Admin">
+            <input type="text" name="examName" value="" class="form-control my-3" placeholder="Enter Exam Name" required/>
+            <input type="date" name="examDate" value="" class="form-control my-3 " required/>
+            <input type="number" name="examFee" value="" class="form-control my-3" placeholder="Enter Exam Fee $$" required/>
+            <input type="date" name="CreatedAt" value="" class="form-control my-3" required/>
+
+            <input type="submit" value="Add Exam" class="btn btn-primary form-control my-3" />
+        </form>
+    </div>
+    <div class="col-md-2"></div>
+</div>

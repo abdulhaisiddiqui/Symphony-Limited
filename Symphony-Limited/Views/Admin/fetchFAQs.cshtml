@@ -1,0 +1,96 @@
+﻿@model List<FAQs>
+@{
+    ViewData["Title"] = "fetchFAQs";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+
+<style>
+    /* Custom default button styles */
+    .custom-btn {
+        background-color: #f8f9fa; /* Set default background color (light gray) */
+        color: #495057; /* Default text color (dark gray) */
+        border-color: #ced4da; /* Border color */
+        transition: background-color 0.2s, color 0.2s; /* Smooth hover transitions */
+    }
+
+        /* Hover styles */
+
+
+        /* Active styles for when the button is clicked */
+        .custom-btn:active {
+            background-color: #d6d8db; /* Even darker gray */
+            color: #000; /* Dark text */
+        }
+
+        /* Focus styles */
+        .custom-btn:focus {
+            outline: none; /* Remove default outline */
+            box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.25); /* Add subtle focus shadow */
+        }
+</style>
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+        <div class="row flex-lg-nowrap">
+            <div class="col mb-3">
+                <div class="e-panel card">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h6 class="mr-2"><span>FAQs</span></h6>
+                            <a class="btn btn-sm btn-outline-secondary badge custom-btn" type="button" data-toggle="modal" data-target="#user-form-modal" asp-action="addFAQ" asp-controller="Admin">Add FAQ</a>
+                        </div>
+                        <div class="e-table">
+                            <div class="table-responsive table-lg mt-3">
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th class="align-top">
+                                                <div class="custom-control custom-control-inline custom-checkbox custom-control-nameless m-0">
+                                                    <input type="checkbox" class="custom-control-input" id="all-items">
+                                                    <label class="custom-control-label" for="all-items"></label>
+                                                </div>
+                                            </th>
+
+                                            <th class="max-width">FAQ Id</th>
+                                            <th class="max-width">Question</th>
+                                            <th class="max-width">Answer</th>
+                                            <th class="max-width">Date Posted</th>
+                                            <th>Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @{
+                                            foreach (var faq in Model)
+                                            {
+                                                <tr>
+                                                    <td class="align-middle">
+                                                        <div class="custom-control custom-control-inline custom-checkbox custom-control-nameless m-0 align-top">
+                                                            <input type="checkbox" class="custom-control-input" id="item-1">
+                                                            <label class="custom-control-label" for="item-1"></label>
+                                                        </div>
+                                                    </td>
+
+                                                    <td class="text-nowrap align-middle">@faq.faq_id</td>
+                                                    <td class="text-nowrap align-middle"><span>@faq.question</span></td>
+                                                    <td class="text-nowrap align-middle"><span>@faq.answer</span></td>
+                                                    <td class="text-nowrap align-middle"><span>@faq.date_posted</span></td>
+                                                    <td class="text-center align-middle">
+                                                        <div class="btn-group align-top">
+
+                                                            <a class="btn btn-sm btn-outline-warning badge custom-btn" type="button" data-toggle="modal" data-target="#user-form-modal" asp-action="updateFAQ" asp-controller="Admin" asp-route-id="@faq.faq_id">Edit</a>
+                                                            <a class="btn btn-sm btn-outline-danger badge custom-btn" type="button" asp-action="deletePermissionFAQ" asp-controller="Admin" asp-route-id="@faq.faq_id"><i class="fa fa-trash"></i></a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            }
+                                        }
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-1"></div>
+</div>

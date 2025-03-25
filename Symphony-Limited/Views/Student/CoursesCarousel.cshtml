@@ -1,0 +1,34 @@
+﻿@model List<Courses>
+        
+
+@if (Model != null && Model.Any())
+{
+        
+
+            <!-- Owl Carousel - Centering Issue Fix -->
+            <div class="owl-carousel courses-carousel">
+                @foreach (var cour in Model)
+                {
+                    <div class="courses-item position-relative">
+                        <img class="img-fluid" src="@Url.Content("~/course_images/" + cour.course_image)" alt="@cour.course_name">
+                        <div class="courses-text">
+                            <h4 class="text-center text-white px-3">@cour.course_name</h4>
+                            <div class="border-top w-100 mt-3">
+                                <div class="d-flex justify-content-between p-4">
+                                    <span class="text-white"><i class="fa fa-user mr-2"></i>@cour.course_instructor</span>
+                                    <span class="text-white"><i class="fa fa-star mr-2"></i>4.5 <small>(250)</small></span>
+                                </div>
+                            </div>
+                            <div class="w-100 bg-white text-center p-4">
+                                <a class="btn btn-primary" asp-action="CourseDetail" asp-controller="Student" asp-route-id="@cour.course_id">Course Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+
+}
+else
+{
+    <p class="text-center text-black">No courses available at the moment.</p>
+}

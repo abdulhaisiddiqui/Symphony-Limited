@@ -1,0 +1,28 @@
+﻿@model List<Courses>
+<div class="mb-5">
+<h2 class="mb-4">Recent Courses</h2>
+        
+@if (Model != null && Model.Any())
+{
+
+
+        @foreach (var cour in Model)
+        {
+<a class="d-flex align-items-center text-decoration-none mb-4" href="">
+                <img class="img-fluid rounded" src="@("~/course_images/"+cour.course_image)" asp-append-version="true" style="width: 35px; height: 35px; border-radius: 3px;" alt="">
+            <div class="pl-3">
+                    <h6><a style="text-decoration:none;" asp-action="CourseDetail" asp-controller="Student" asp-route-id="@cour.course_id">@cour.course_name</a></h6>
+                <div class="d-flex">
+                    <small class="text-body mr-3"><i class="fa fa-user text-primary mr-2"></i>@cour.course_instructor</small>
+                    <small class="text-body"><i class="fa fa-star text-primary mr-2"></i>4.5 (250)</small>
+                </div>
+            </div>
+</a>
+        }
+
+}
+else
+{
+    <p class="text-center text-black">No courses available at the moment.</p>
+}
+</div>

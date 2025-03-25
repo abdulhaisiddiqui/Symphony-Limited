@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewData["Title"] = "addFAQ";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+
+
+<div class="container-fluid px-4">
+    <h2 class="mt-4 text-center text-uppercase" style="letter-spacing:4px">Add FAQ</h2>
+</div>
+
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <form method="post" asp-action="addFAQ" asp-controller="Admin">
+            <input type="text" name="question" value="" class="form-control my-3" placeholder="Enter FAQ Question" required />
+            <input type="text" name="answer" value="" class="form-control my-3 " placeholder="Enter FAQ Answer" required />
+            <input type="date" name="date_posted" value="" class="form-control my-3" required />
+
+            <input type="submit" value="Add Exam" class="btn btn-primary form-control my-3" />
+        </form>
+    </div>
+    <div class="col-md-2"></div>
+</div>
+

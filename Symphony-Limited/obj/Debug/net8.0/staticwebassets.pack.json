@@ -1,0 +1,1609 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Symphony-Limited.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Symphony-Limited.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\admin_images\\Cover Image.jpg",
+      "PackagePath": "staticwebassets\\admin_images\\Cover Image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\admin_images\\businessman-working-with-laptop.jpg",
+      "PackagePath": "staticwebassets\\admin_images\\businessman-working-with-laptop.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\admin_images\\courses-3.jpg",
+      "PackagePath": "staticwebassets\\admin_images\\courses-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\admin_images\\cover.jpg",
+      "PackagePath": "staticwebassets\\admin_images\\cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\admin_images\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\admin_images\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\assets\\demo\\chart-area-demo.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\chart-area-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\assets\\demo\\chart-bar-demo.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\chart-bar-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\assets\\demo\\chart-pie-demo.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\chart-pie-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\assets\\demo\\datatables-demo.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\datatables-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\assets\\img\\error-404-monochrome.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\error-404-monochrome.svg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\course_images\\2ba717ac010d3b9f8d26e9db4da291b8.jpg",
+      "PackagePath": "staticwebassets\\course_images\\2ba717ac010d3b9f8d26e9db4da291b8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\course_images\\453029599_493380806776848_5580695861868830498_n.jpg",
+      "PackagePath": "staticwebassets\\course_images\\453029599_493380806776848_5580695861868830498_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\course_images\\971e5312-1ecb-4a01-a493-c6255e766801.jpg",
+      "PackagePath": "staticwebassets\\course_images\\971e5312-1ecb-4a01-a493-c6255e766801.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\course_images\\Cover Image.jpg",
+      "PackagePath": "staticwebassets\\course_images\\Cover Image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\course_images\\Hombre árabe.jpg",
+      "PackagePath": "staticwebassets\\course_images\\Hombre árabe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\course_images\\Lor Krishna.jpg",
+      "PackagePath": "staticwebassets\\course_images\\Lor Krishna.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\course_images\\a8ea429a-9555-44a2-88bd-e9eba5b2eef2.png",
+      "PackagePath": "staticwebassets\\course_images\\a8ea429a-9555-44a2-88bd-e9eba5b2eef2.png"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\course_images\\courses-1.jpg",
+      "PackagePath": "staticwebassets\\course_images\\courses-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\course_images\\courses-2.jpg",
+      "PackagePath": "staticwebassets\\course_images\\courses-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\course_images\\courses-3.jpg",
+      "PackagePath": "staticwebassets\\course_images\\courses-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\course_images\\fd1c22b7-a263-48e2-bade-191f09830cb3.png",
+      "PackagePath": "staticwebassets\\course_images\\fd1c22b7-a263-48e2-bade-191f09830cb3.png"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\course_images\\mercedes-amg-4k-with-spooky-aesthetic-trees-tgyuwvai34kla4jm.jpg",
+      "PackagePath": "staticwebassets\\course_images\\mercedes-amg-4k-with-spooky-aesthetic-trees-tgyuwvai34kla4jm.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\instructor_images\\971e5312-1ecb-4a01-a493-c6255e766801.jpg",
+      "PackagePath": "staticwebassets\\instructor_images\\971e5312-1ecb-4a01-a493-c6255e766801.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\instructor_images\\Hombre árabe.jpg",
+      "PackagePath": "staticwebassets\\instructor_images\\Hombre árabe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\instructor_images\\Lor Krishna.jpg",
+      "PackagePath": "staticwebassets\\instructor_images\\Lor Krishna.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\instructor_images\\a8ea429a-9555-44a2-88bd-e9eba5b2eef2.png",
+      "PackagePath": "staticwebassets\\instructor_images\\a8ea429a-9555-44a2-88bd-e9eba5b2eef2.png"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\instructor_images\\about.jpg",
+      "PackagePath": "staticwebassets\\instructor_images\\about.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\instructor_images\\team-1.jpg",
+      "PackagePath": "staticwebassets\\instructor_images\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\instructor_images\\team-2.jpg",
+      "PackagePath": "staticwebassets\\instructor_images\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\instructor_images\\team-3.jpg",
+      "PackagePath": "staticwebassets\\instructor_images\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\instructor_images\\team-4.jpg",
+      "PackagePath": "staticwebassets\\instructor_images\\team-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\js\\datatables-simple-demo.js",
+      "PackagePath": "staticwebassets\\js\\datatables-simple-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_maps.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_maps.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_placeholders.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_placeholders.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_variables-dark.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_variables-dark.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\helpers\\_color-bg.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\helpers\\_color-bg.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\helpers\\_focus-ring.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\helpers\\_focus-ring.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\helpers\\_icon-link.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\helpers\\_icon-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\helpers\\_stacks.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\helpers\\_stacks.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\helpers\\_vr.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\helpers\\_vr.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\mixins\\_backdrop.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\mixins\\_backdrop.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\mixins\\_banner.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\mixins\\_banner.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\mixins\\_color-mode.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\mixins\\_color-mode.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\twitter-bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\twitter-bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\website\\assets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\css\\flex-slider.css",
+      "PackagePath": "staticwebassets\\website\\assets\\css\\flex-slider.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\website\\assets\\css\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\css\\owl.css",
+      "PackagePath": "staticwebassets\\website\\assets\\css\\owl.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\css\\templatemo-scholar.css",
+      "PackagePath": "staticwebassets\\website\\assets\\css\\templatemo-scholar.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\images\\banner-bg.jpg",
+      "PackagePath": "staticwebassets\\website\\assets\\images\\banner-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\images\\banner-item-01.jpg",
+      "PackagePath": "staticwebassets\\website\\assets\\images\\banner-item-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\images\\banner-item-02.jpg",
+      "PackagePath": "staticwebassets\\website\\assets\\images\\banner-item-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\images\\banner-item-03.jpg",
+      "PackagePath": "staticwebassets\\website\\assets\\images\\banner-item-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\images\\contact-dec-01.png",
+      "PackagePath": "staticwebassets\\website\\assets\\images\\contact-dec-01.png"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\images\\contact-dec-02.png",
+      "PackagePath": "staticwebassets\\website\\assets\\images\\contact-dec-02.png"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\images\\course-01.jpg",
+      "PackagePath": "staticwebassets\\website\\assets\\images\\course-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\images\\course-02.jpg",
+      "PackagePath": "staticwebassets\\website\\assets\\images\\course-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\images\\course-03.jpg",
+      "PackagePath": "staticwebassets\\website\\assets\\images\\course-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\images\\course-04.jpg",
+      "PackagePath": "staticwebassets\\website\\assets\\images\\course-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\images\\course-05.jpg",
+      "PackagePath": "staticwebassets\\website\\assets\\images\\course-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\images\\course-06.jpg",
+      "PackagePath": "staticwebassets\\website\\assets\\images\\course-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\images\\event-01.jpg",
+      "PackagePath": "staticwebassets\\website\\assets\\images\\event-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\images\\event-02.jpg",
+      "PackagePath": "staticwebassets\\website\\assets\\images\\event-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\images\\event-03.jpg",
+      "PackagePath": "staticwebassets\\website\\assets\\images\\event-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\images\\member-01.jpg",
+      "PackagePath": "staticwebassets\\website\\assets\\images\\member-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\images\\member-02.jpg",
+      "PackagePath": "staticwebassets\\website\\assets\\images\\member-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\images\\member-03.jpg",
+      "PackagePath": "staticwebassets\\website\\assets\\images\\member-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\images\\member-04.jpg",
+      "PackagePath": "staticwebassets\\website\\assets\\images\\member-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\images\\service-01.png",
+      "PackagePath": "staticwebassets\\website\\assets\\images\\service-01.png"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\images\\service-02.png",
+      "PackagePath": "staticwebassets\\website\\assets\\images\\service-02.png"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\images\\service-03.png",
+      "PackagePath": "staticwebassets\\website\\assets\\images\\service-03.png"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\images\\testimonial-author.jpg",
+      "PackagePath": "staticwebassets\\website\\assets\\images\\testimonial-author.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\js\\counter.js",
+      "PackagePath": "staticwebassets\\website\\assets\\js\\counter.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\js\\custom.js",
+      "PackagePath": "staticwebassets\\website\\assets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\js\\isotope.min.js",
+      "PackagePath": "staticwebassets\\website\\assets\\js\\isotope.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\js\\owl-carousel.js",
+      "PackagePath": "staticwebassets\\website\\assets\\js\\owl-carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\website\\assets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\website\\assets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\website\\assets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\website\\assets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\website\\assets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\website\\assets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\website\\assets\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\assets\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\website\\assets\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\website\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\css\\fontawesome-all.css",
+      "PackagePath": "staticwebassets\\website\\css\\fontawesome-all.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\website\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\css\\style.css",
+      "PackagePath": "staticwebassets\\website\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\css\\style.min.css",
+      "PackagePath": "staticwebassets\\website\\css\\style.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\css\\styles.css",
+      "PackagePath": "staticwebassets\\website\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\css\\swiper.css",
+      "PackagePath": "staticwebassets\\website\\css\\swiper.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\documentation\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\website\\documentation\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\documentation\\css\\styles.css",
+      "PackagePath": "staticwebassets\\website\\documentation\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\documentation\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\website\\documentation\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\documentation\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\website\\documentation\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\documentation\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\website\\documentation\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\documentation\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\website\\documentation\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\documentation\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\website\\documentation\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\documentation\\index.html",
+      "PackagePath": "staticwebassets\\website\\documentation\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\documentation\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\website\\documentation\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\documentation\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\website\\documentation\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\documentation\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\website\\documentation\\js\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\img\\Enterance Exam.jpg",
+      "PackagePath": "staticwebassets\\website\\img\\Enterance Exam.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\img\\Graduation Cap On Book Stack Education Concept Background Wallpaper Image For Free Download - Pngtree.jpg",
+      "PackagePath": "staticwebassets\\website\\img\\Graduation Cap On Book Stack Education Concept Background Wallpaper Image For Free Download - Pngtree.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\img\\Graduation Cap On Book Stack Education.jpg",
+      "PackagePath": "staticwebassets\\website\\img\\Graduation Cap On Book Stack Education.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\img\\about.jpg",
+      "PackagePath": "staticwebassets\\website\\img\\about.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\img\\bg-image.jpg",
+      "PackagePath": "staticwebassets\\website\\img\\bg-image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\img\\courses-1.jpg",
+      "PackagePath": "staticwebassets\\website\\img\\courses-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\img\\courses-2.jpg",
+      "PackagePath": "staticwebassets\\website\\img\\courses-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\img\\courses-3.jpg",
+      "PackagePath": "staticwebassets\\website\\img\\courses-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\img\\courses-4.jpg",
+      "PackagePath": "staticwebassets\\website\\img\\courses-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\img\\courses-5.jpg",
+      "PackagePath": "staticwebassets\\website\\img\\courses-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\img\\courses-6.jpg",
+      "PackagePath": "staticwebassets\\website\\img\\courses-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\img\\courses-80x80.jpg",
+      "PackagePath": "staticwebassets\\website\\img\\courses-80x80.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\img\\download-2.jpg",
+      "PackagePath": "staticwebassets\\website\\img\\download-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\img\\download.jpg",
+      "PackagePath": "staticwebassets\\website\\img\\download.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\img\\feature.jpg",
+      "PackagePath": "staticwebassets\\website\\img\\feature.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\img\\header.jpg",
+      "PackagePath": "staticwebassets\\website\\img\\header.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\img\\online-education-website-template.jpg",
+      "PackagePath": "staticwebassets\\website\\img\\online-education-website-template.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\img\\overlay-bottom.png",
+      "PackagePath": "staticwebassets\\website\\img\\overlay-bottom.png"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\img\\overlay-top.png",
+      "PackagePath": "staticwebassets\\website\\img\\overlay-top.png"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\img\\page-header.jpg",
+      "PackagePath": "staticwebassets\\website\\img\\page-header.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\img\\team-1.jpg",
+      "PackagePath": "staticwebassets\\website\\img\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\img\\team-2.jpg",
+      "PackagePath": "staticwebassets\\website\\img\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\img\\team-3.jpg",
+      "PackagePath": "staticwebassets\\website\\img\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\img\\team-4.jpg",
+      "PackagePath": "staticwebassets\\website\\img\\team-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\website\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\website\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\js\\main.js",
+      "PackagePath": "staticwebassets\\website\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\lib\\counterup\\counterup.min.js",
+      "PackagePath": "staticwebassets\\website\\lib\\counterup\\counterup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\website\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\website\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\website\\lib\\owlcarousel"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\website\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\website\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\website\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\website\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\website\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\website\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\website\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\website\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\website\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\website\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\website\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\website\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_code.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_code.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_custom-forms.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_custom-forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_input-group.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_jumbotron.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_jumbotron.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_media.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_media.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_print.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_print.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\mixins\\_background-variant.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\mixins\\_background-variant.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\mixins\\_float.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\mixins\\_float.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\mixins\\_nav-divider.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\mixins\\_nav-divider.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\mixins\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\mixins\\_screen-reader.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\mixins\\_size.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\mixins\\_size.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\mixins\\_table-row.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\mixins\\_table-row.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\mixins\\_text-emphasis.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\mixins\\_text-emphasis.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\mixins\\_text-hide.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\mixins\\_text-hide.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\mixins\\_visibility.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\mixins\\_visibility.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\utilities\\_align.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\utilities\\_align.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\utilities\\_background.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\utilities\\_background.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\utilities\\_borders.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\utilities\\_borders.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\utilities\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\utilities\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\utilities\\_display.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\utilities\\_display.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\utilities\\_embed.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\utilities\\_embed.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\utilities\\_flex.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\utilities\\_flex.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\utilities\\_float.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\utilities\\_float.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\utilities\\_interactions.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\utilities\\_interactions.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\utilities\\_overflow.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\utilities\\_overflow.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\utilities\\_position.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\utilities\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\utilities\\_screenreaders.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\utilities\\_screenreaders.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\utilities\\_shadows.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\utilities\\_shadows.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\utilities\\_sizing.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\utilities\\_sizing.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\utilities\\_spacing.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\utilities\\_spacing.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\utilities\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\utilities\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\utilities\\_text.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\utilities\\_text.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\utilities\\_visibility.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\utilities\\_visibility.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\website\\scss\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\website\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\website\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\vendor\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\website\\vendor\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\vendor\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\website\\vendor\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\vendor\\jquery\\jquery.min.map",
+      "PackagePath": "staticwebassets\\website\\vendor\\jquery\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\vendor\\jquery\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\website\\vendor\\jquery\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\vendor\\jquery\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\website\\vendor\\jquery\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\AST\\Desktop\\Symphony-Limited\\Symphony-Limited\\wwwroot\\website\\vendor\\jquery\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\website\\vendor\\jquery\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Symphony-Limited.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Symphony-Limited.props",
+      "PackagePath": "build\\Symphony-Limited.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Symphony-Limited.props",
+      "PackagePath": "buildMultiTargeting\\Symphony-Limited.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Symphony-Limited.props",
+      "PackagePath": "buildTransitive\\Symphony-Limited.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

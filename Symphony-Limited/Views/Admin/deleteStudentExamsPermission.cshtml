@@ -1,0 +1,28 @@
+﻿@model Student_Exams
+@{
+    ViewData["Title"] = "deleteStudentExamsPermission";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+
+<div class="container-fluid px-4">
+    <h2 class="mt-4 text-center text-uppercase text-danger" style="letter-spacing:4px">Are Your Sure You Wants To Delete This Exam?</h2>
+</div>
+
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <ul class="list-group">
+            <li class="list-group-item">Exam id: @Model.studentExamId</li>
+            <li class="list-group-item">Exam Name: @Model.exam_id</li>
+            <li class="list-group-item">Exam Date: @Model.stu_id</li>
+            <li class="list-group-item">Exam Date: @Model.marksObtained</li>
+            <li class="list-group-item">Exam Date: @Model.examScore</li>
+            <li class="list-group-item">Exam Fee: @Model.examResult</li>
+            
+
+        </ul>
+        <a asp-action="fetchResult" asp-controller="Admin" class="btn btn-warning my-3">Back To List</a>
+        <a asp-action="deleteStudentExam" asp-controller="Admin" asp-route-id="@Model.studentExamId" class="btn btn-danger">Delete</a>
+    </div>
+    <div class="col-md-2"></div>
+</div>

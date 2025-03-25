@@ -1,0 +1,22 @@
+﻿@model List<Instructor>
+
+
+@foreach (var ins in Model)
+{
+<div class="col-lg-3 col-md-6">
+    <div class="team-member">
+        <div class="main-content">
+    
+        <img src="@("~/instructor_images/"+ins.instructorImage)" asp-append-version="true" alt="">
+        <span class="category">@ins.instructorFaculty</span>
+        <h4>@ins.instructorName</h4>
+        <ul class="social-icons">
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+    
+ </div>
+                </div>
+            </div>
+}

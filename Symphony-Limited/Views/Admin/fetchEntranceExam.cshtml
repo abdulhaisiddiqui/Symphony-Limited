@@ -1,0 +1,136 @@
+﻿@model List<Entrance_Exam>
+@{
+    ViewData["Title"] = "fetchEntranceExam";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+@* 
+<div class="container-fluid px-4">
+    <h2 class="mt-4 text-center text-uppercase" style="letter-spacing:4px">All Entrance Exams</h2>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+          <a asp-action="addEntranceExam" asp-controller="Admin" class="btn btn-primary">Create Entrance Exam</a>
+        <table class="table table-bordered table-striped text-center mt-3">
+            <thead>
+                <tr>
+                    <th>Exam Name</th>
+                    <th>Exam Date</th>
+                    <th>Exam Fee</th>
+                    <th>Exam Fee</th>
+                    <th>Options</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    foreach (var exam in Model)
+                    {
+                        <tr>
+                            <td>@exam.examName</td>
+                            <td>@exam.examDate</td>
+                            <td>@exam.examFee</td>
+                            <td>@exam.CreatedAt</td>
+                            <td>
+                                <a asp-action="updateEntranceExam" asp-controller="Admin" asp-route-id="@exam.examId" class="btn btn-warning">Update</a>
+                                <a asp-action="deleteEntranceExamPermission" asp-controller="Admin" asp-route-id="@exam.examId" class="btn btn-danger">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                }
+
+            </tbody>
+        </table>
+    </div>
+</div> *@
+
+
+<style>
+    /* Custom default button styles */
+    .custom-btn {
+        background-color: #f8f9fa; /* Set default background color (light gray) */
+        color: #495057; /* Default text color (dark gray) */
+        border-color: #ced4da; /* Border color */
+        transition: background-color 0.2s, color 0.2s; /* Smooth hover transitions */
+    }
+
+        /* Hover styles */
+
+
+        /* Active styles for when the button is clicked */
+        .custom-btn:active {
+            background-color: #d6d8db; /* Even darker gray */
+            color: #000; /* Dark text */
+        }
+
+        /* Focus styles */
+        .custom-btn:focus {
+            outline: none; /* Remove default outline */
+            box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.25); /* Add subtle focus shadow */
+        }
+</style>
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+        <div class="row flex-lg-nowrap">
+            <div class="col mb-3">
+                <div class="e-panel card">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h6 class="mr-2"><span>Entrance Exam</span></h6>
+                            <a class="btn btn-sm btn-outline-secondary badge custom-btn" type="button" data-toggle="modal" data-target="#user-form-modal" asp-action="addEntranceExam" asp-controller="Admin">Add Exam</a>
+                        </div>
+                        <div class="e-table">
+                            <div class="table-responsive table-lg mt-3">
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th class="align-top">
+                                                <div class="custom-control custom-control-inline custom-checkbox custom-control-nameless m-0">
+                                                    <input type="checkbox" class="custom-control-input" id="all-items">
+                                                    <label class="custom-control-label" for="all-items"></label>
+                                                </div>
+                                            </th>
+                                            
+                                            <th class="max-width">Exam Name</th>
+                                            <th class="max-width">Exam Date</th>
+                                            <th class="max-width">Exam Fee</th>
+                                            <th class="max-width">Created Date</th>
+                                            <th>Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @{
+                                            foreach (var exam in Model)
+                                            {
+                                                <tr>
+                                                    <td class="align-middle">
+                                                        <div class="custom-control custom-control-inline custom-checkbox custom-control-nameless m-0 align-top">
+                                                            <input type="checkbox" class="custom-control-input" id="item-1">
+                                                            <label class="custom-control-label" for="item-1"></label>
+                                                        </div>
+                                                    </td>
+                                                    
+                                                    <td class="text-nowrap align-middle">@exam.examName</td>
+                                                    <td class="text-nowrap align-middle"><span>@exam.examDate</span></td>
+                                                    <td class="text-nowrap align-middle"><span>@exam.examFee</span></td>
+                                                    <td class="text-nowrap align-middle"><span>$@exam.CreatedAt</span></td>
+                                                    <td class="text-center align-middle">
+                                                        <div class="btn-group align-top">
+
+                                                            <a class="btn btn-sm btn-outline-warning badge custom-btn" type="button" data-toggle="modal" data-target="#user-form-modal" asp-action="updateEntranceExam" asp-controller="Admin" asp-route-id="@exam.examId">Edit</a>
+                                                            <a class="btn btn-sm btn-outline-danger badge custom-btn" type="button" asp-action="deleteEntranceExamPermission" asp-controller="Admin" asp-route-id="@exam.examId"><i class="fa fa-trash"></i></a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            }
+                                        }
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-1"></div>
+</div>

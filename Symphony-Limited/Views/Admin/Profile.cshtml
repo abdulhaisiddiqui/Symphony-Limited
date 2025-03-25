@@ -1,0 +1,142 @@
+﻿@model Admin
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+
+<style>
+    body {
+        background: #ffffff; /* White background */
+    }
+
+    .form-control:focus {
+        box-shadow: none;
+        border-color: #000000; /* Black border on focus */
+    }
+
+    .profile-button {
+        background: #000000; /* Black button */
+        color: #ffffff; /* White text */
+        box-shadow: none;
+        border: none;
+        transition: background 0.3s ease;
+    }
+
+        .profile-button:hover {
+            background: #333333; /* Darker black on hover */
+        }
+
+        .profile-button:focus {
+            background: #333333;
+            box-shadow: none;
+        }
+
+        .profile-button:active {
+            background: #333333;
+            box-shadow: none;
+        }
+
+    .back:hover {
+        color: #000000; /* Black text on hover */
+        cursor: pointer;
+    }
+
+    .rounded-circle {
+        border: 3px solid #000000; /* Black border for profile image */
+    }
+
+    .container {
+        max-width: 900px; /* Limit container width for better readability */
+    }
+
+    .card {
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    }
+
+    .form-control {
+        border-radius: 10px; /* Rounded corners for input fields */
+        border: 1px solid #000000; /* Black border for inputs */
+    }
+
+    .btn-back {
+        color: #000000; /* Black text for back button */
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+        .btn-back:hover {
+            color: #333333; /* Darker black on hover */
+        }
+
+    .text-right h4 {
+        color: #000000; /* Black text for heading */
+    }
+
+    label {
+        color: #000000; /* Black text for labels */
+    }
+</style>
+
+<div class="container rounded bg-white mt-5 p-4 card">
+    <div class="row">
+        <!-- Profile Image Section -->
+        <div class="col-md-4 border-right">
+            <form method="post" asp-action="ChangeProfileImage" asp-controller="Admin" enctype="multipart/form-data">
+                <input type="hidden" name="admin_id" value="@Model.admin_id" />
+                <input type="hidden" name="admin_name" value="@Model.admin_name" />
+                <input type="hidden" name="admin_email" value="@Model.admin_email" />
+                <input type="hidden" name="admin_password" value="@Model.admin_password" />
+
+                <div class="d-flex flex-column align-items-center text-center p-3 py-5">
+                    <img class="rounded-circle mt-5" src="@("~/admin_images/"+Model.admin_image)" asp-append-version="true" width="150" height="150" />
+                    <div class="mt-4">
+                        <input type="file" name="admin_image" class="form-control-file" />
+                        <button type="submit" class="btn profile-button mt-3">Change Profile Image</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <!-- Profile Details Section -->
+        <div class="col-md-8">
+            <div class="p-3 py-5">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4 class="text-right">Profile Settings</h4>
+                    <a asp-action="Index" asp-controller="Admin" class="btn-back">
+                        <i class="fa fa-arrow-left mr-1"></i>Back to Home
+                    </a>
+                </div>
+
+                <form method="post" asp-action="Profile" asp-controller="Admin">
+                    <input type="hidden" name="admin_id" value="@Model.admin_id" />
+                    <input type="hidden" name="admin_image" value="@Model.admin_image" />
+
+                    <div class="row mt-3">
+                        <div class="col-md-12">
+                            <label>Name</label>
+                            <input type="text" class="form-control" placeholder="Admin name" name="admin_name" value="@Model.admin_name" />
+                        </div>
+                    </div>
+
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <label>Email</label>
+                            <input type="text" class="form-control" placeholder="Email" name="admin_email" value="@Model.admin_email" />
+                        </div>
+                        <div class="col-md-6">
+                            <label>Password</label>
+                            <input type="text" class="form-control" name="admin_password" value="@Model.admin_password" placeholder="Password" />
+                        </div>
+                    </div>
+
+                    <div class="mt-5 text-right">
+                        <button type="submit" class="btn profile-button">Save Profile</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

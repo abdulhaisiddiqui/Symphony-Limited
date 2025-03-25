@@ -1,0 +1,30 @@
+﻿@model Payment
+@{
+    ViewData["Title"] = "deletePermissionPayment";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+
+
+
+<div class="container-fluid px-4">
+    <h2 class="mt-4 text-center text-uppercase" style="letter-spacing:4px">Are You Sure You Wants To Delete This enrollment?</h2>
+</div>
+
+<div class="row">
+    <div claas="col-md-2"></div>
+    <div claas="col-md-8">
+        <ul class="list-group">
+
+            <li class="list-group-item">Payment Id: @Model.PaymentId</li>
+            <li class="list-group-item">Enrollment Id: @Model.EnrollmentId</li>
+            <li class="list-group-item">Transaction Id: @Model.TransactionId</li>
+            <li class="list-group-item">Amount: @Model.Amount</li>
+            <li class="list-group-item">Payment Status: @Model.PaymentStatus</li>
+            <li class="list-group-item">Payment Date: @Model.PaymentDate'</li>
+        </ul>
+        <a class="btn btn-warning my-3" asp-action="fetchPayments" asp-controller="Admin">Back To List</a>
+        <a class="btn btn-danger my-3" asp-action="deletePayment" asp-controller="Admin" asp-route-id="@Model.PaymentId">Delete</a>
+    </div>
+    <div claas="col-md-2"></div>
+</div>
+

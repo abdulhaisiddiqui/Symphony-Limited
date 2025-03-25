@@ -1,0 +1,19 @@
+﻿@model List<Courses>
+
+        <div class="dropdown-menu">
+@{if (Model != null && Model.Any())
+{
+        
+
+    foreach(var cour in Model)
+    {
+                <a class="dropdown-item" asp-action="CourseDetail" asp-controller="Student" asp-route-id="@cour.course_id" >@cour.course_name</a>
+
+    }
+        }
+        else
+        {
+        <p class="text-center text-black">No courses available at the moment.</p>
+        }
+    }
+            </div>

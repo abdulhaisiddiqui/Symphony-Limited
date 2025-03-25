@@ -1,0 +1,25 @@
+﻿@model List<Courses>
+
+        <ul class="list-group list-group-flush">
+        @if (Model != null && Model.Any())
+        {
+
+
+            @foreach (var cour in Model)
+            {
+            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                <a class="text-decoration-none h6 m-0" asp-action="CourseDetail" asp-controller="Student" asp-route-id="@cour.course_id">@cour.course_name</a>
+                <span class="badge badge-primary badge-pill">@cour.course_lectures</span>
+            </li>
+           
+
+            }
+
+        }
+        else
+        {
+            <p class="text-center text-black">No courses available at the moment.</p>
+        }
+ 
+
+        </ul>

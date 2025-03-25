@@ -1,0 +1,377 @@
+﻿@* @model List<Entrance_Exam> *@
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@* 
+@foreach (var exam in Model)
+{
+    <div>
+        <h3>@exam.examName</h3>
+        <p>Date: @exam.examDate</p>
+        <p>Fee: @exam.examFee</p>
+        <form asp-action="RegisterForExam" asp-controller="Student" method="post">
+            <input type="hidden" name="examId" value="@exam.examId" />
+            <input type="hidden" name="studentId" value="1" /> <!-- Example studentId -->
+            <button type="submit">Register</button>
+        </form>
+    </div>
+}
+ *@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Symphony | Online Computer Education</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="~/website/img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="~/website/assets/lib/owlcarousel/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="~/website/css/style.css" rel="stylesheet">
+
+    @* bootstrap cdn *@
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQv9ZD3xkX6sI5uH3r50m7lO9Y2HCoPAMgxQ3Wt2kpKNJ4V9+P98FNHZb" crossorigin="anonymous">
+    
+    @* owl carousel *@
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+
+</head>
+<body>
+<div class="jumbotron jumbotron-fluid position-relative overlay-bottom" style="margin-bottom: 90px;">
+    <div class="container text-center my-5 py-5">
+        <h1 class="text-white mt-4 mb-4">Transform Your Skills</h1>
+        <h1 class="text-white display-1 mb-5">Education Courses</h1>
+        <div class="mx-auto mb-5" style="width: 100%; max-width: 600px;">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <button class="btn btn-outline-light bg-white text-body px-4 dropdown-toggle" type="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                            Courses
+                        </button>
+                        @Html.Partial("CoursesDropdown", ViewData["courses"])
+                    </div>
+                    <input type="text" class="form-control border-light" style="padding: 30px 25px;" placeholder="Keyword">
+                    <div class="input-group-append">
+                        <button class="btn btn-secondary px-4 px-lg-5" style="background-color:#F14D5D; border-color:#F14D5D;">Search</button>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+<!-- Header End -->
+<!-- About Start -->
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
+                <div class="position-relative h-100">
+                    <img class="position-absolute w-100 h-100" src="~/website/img/download.jpg" style="object-fit: cover;">
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="section-title position-relative mb-4">
+                    <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">About Us</h6>
+                    <h1 class="display-4">First Choice For Online Education Anywhere</h1>
+                </div>
+                <p>Online education offers flexible, high-quality learning accessible from anywhere. With expert instructors, interactive courses, and self-paced options, it’s the top choice for students and professionals seeking knowledge without limits.</p>
+                <div class="row pt-3 mx-0">
+                    <div class="col-3 px-0">
+                        <div class="bg-success text-center p-4">
+                            <h1 class="text-white" data-toggle="counter-up">123</h1>
+                            <h6 class="text-uppercase text-white">Available<span class="d-block">Subjects</span></h6>
+                        </div>
+                    </div>
+                    <div class="col-3 px-0">
+                        <div class="bg-primary text-center p-4">
+                            <h1 class="text-white" data-toggle="counter-up">1234</h1>
+                            <h6 class="text-uppercase text-white">Online<span class="d-block">Courses</span></h6>
+                        </div>
+                    </div>
+                    <div class="col-3 px-0">
+                        <div class="bg-secondary text-center p-4">
+                            <h1 class="text-white" data-toggle="counter-up">123</h1>
+                            <h6 class="text-uppercase text-white">Skilled<span class="d-block">Instructors</span></h6>
+                        </div>
+                    </div>
+                    <div class="col-3 px-0">
+                        <div class="bg-warning text-center p-4">
+                            <h1 class="text-white" data-toggle="counter-up">1234</h1>
+                            <h6 class="text-uppercase text-white">Happy<span class="d-block">Students</span></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+<!-- Feature Start -->
+<div class="container-fluid bg-image" style="margin: 90px 0;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 my-5 pt-5 pb-lg-5">
+                <div class="section-title position-relative mb-4">
+                    <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Why Choose Us?</h6>
+                    <h1 class="display-4">Why You Should Start Learning with Us?</h1>
+                </div>
+                <p class="mb-4 pb-2">We offer high-quality, flexible, and engaging online courses designed to fit your schedule. With expert instructors, interactive content, and a supportive learning environment, you’ll gain valuable skills to achieve your goals. Start your journey with us today!</p>
+                <div class="d-flex mb-3">
+                    <div class="btn-icon bg-primary mr-4">
+                        <i class="fa fa-2x fa-graduation-cap text-white"></i>
+                    </div>
+                    <div class="mt-n1">
+                        <h4>Skilled Instructors</h4>
+                        <p>Learn from highly qualified experts with real-world experience. Our instructors use effective teaching methods to enhance your learning. Gain valuable skills with guidance from the best.</p>
+                    </div>
+                </div>
+                <div class="d-flex mb-3">
+                    <div class="btn-icon bg-secondary mr-4">
+                        <i class="fa fa-2x fa-certificate text-white"></i>
+                    </div>
+                    <div class="mt-n1">
+                        <h4>International Certificate</h4>
+                        <p>Earn a globally recognized certificate that boosts your career opportunities. Our certification validates your skills and expertise worldwide. Stand out in the competitive job market with an accredited credential.</p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="btn-icon bg-warning mr-4">
+                        <i class="fa fa-2x fa-book-reader text-white"></i>
+                    </div>
+                    <div class="mt-n1">
+                        <h4>Online Classes</h4>
+                        <p class="m-0">Enjoy flexible, interactive, and high-quality learning from anywhere. Our online classes fit your schedule and provide expert guidance. Learn at your own pace and achieve your goals effortlessly.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5" style="min-height: 500px;">
+                <div class="position-relative h-100">
+                    <img class="position-absolute w-100 h-100" src="~/website/img/Graduation Cap On Book Stack Education Concept Background Wallpaper Image For Free Download - Pngtree.jpg" style="object-fit: cover;">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Feature Start -->
+<!-- Courses Start -->
+<div class="container-fluid px-0 py-5">
+    <div class="row mx-0 justify-content-center pt-5">
+        <div class="col-lg-6">
+            <div class="section-title text-center position-relative mb-4">
+                <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Our Courses</h6>
+                <h1 class="display-4">Checkout New Releases Of Our Courses</h1>
+            </div>
+        </div>
+    </div>
+        
+    
+            @Html.Partial("CoursesCarousel", ViewData["courses"])
+
+    </div>
+
+<!-- Courses End -->
+<!-- Team Start -->
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="section-title text-center position-relative mb-5">
+            <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Instructors</h6>
+            <h1 class="display-4">Meet Our Instructors</h1>
+        </div>
+       
+                @Html.Partial("_instructorCarousel", ViewData["instructor"]);
+           @*  <div class="team-item">
+                <img class="img-fluid w-100" src="~/website/img/team-2.jpg" alt="">
+                <div class="bg-light text-center p-4">
+                    <h5 class="mb-3">Mark Johnson</h5>
+                    <p class="mb-2">Cybersecurity</p>
+                    <div class="d-flex justify-content-center">
+                        <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
+                        <a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div> *@
+           
+       
+    </div>
+</div>
+<!-- Team End -->
+<!-- Testimonial Start -->
+<div class="container-fluid bg-image py-5" style="margin: 90px 0;">
+    <div class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-lg-5 mb-5 mb-lg-0">
+                <div class="section-title position-relative mb-4">
+                    <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Testimonial</h6>
+                    <h1 class="display-4">What Say Our Students</h1>
+                </div>
+                <p class="m-0">Our students rave about the expert instructors and practical learning that prepare them for successful careers. Symphony has been instrumental in helping them secure jobs and achieve their professional goals.</p>
+            </div>
+            <div class="col-lg-7">
+                <div class="owl-carousel testimonial-carousel">
+                    <div class="bg-white p-5">
+                        <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                        <p>"Symphony's courses transformed my career!" "I enrolled in the web development course at Symphony, and it was an amazing experience. The instructors were highly skilled, and the curriculum was both challenging and engaging. I gained hands-on experience that helped me secure a job as a full-stack developer right after graduation. I highly recommend this institute to anyone looking to boost their career in IT."</p>
+                        <div class="d-flex flex-shrink-0 align-items-center mt-4">
+                            <img class="img-fluid mr-4" src="~/website/img/testimonial-2.jpg" style="width:125px;" alt="">
+                            <div>
+                                <h5>John Smith</h5>
+                                <span>Web Development Graduate</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white p-5">
+                        <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                        <p>"The best learning experience!" "I took the digital marketing course at Symphony and it was worth every penny. The classes were well-structured, and the trainers were always available to provide guidance. I learned everything from SEO to social media strategies, and now I have the skills I need to work in the marketing industry. Thank you, Symphony!"</p>
+                        <div class="d-flex flex-shrink-0 align-items-center mt-4">
+                                <img class="img-fluid mr-4" src="~/website/img/testimonial-1.jpg" style="width:125px;" alt="">
+                            <div>
+                                <h5>Sarah Lee</h5>
+                                <span>Digital Marketing Graduate</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Testimonial End -->
+<!-- Contact Start -->
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-lg-5 mb-5 mb-lg-0">
+                <div class="bg-light d-flex flex-column justify-content-center px-5" style="height: 450px;">
+                    <div class="d-flex align-items-center mb-5">
+                        <div class="btn-icon bg-primary mr-4">
+                            <i class="fa fa-2x fa-map-marker-alt text-white"></i>
+                        </div>
+                        <div class="mt-n1">
+                            <h4>Our Location</h4>
+                            <p class="m-0">123 Street, New York, USA</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center mb-5">
+                        <div class="btn-icon bg-secondary mr-4">
+                            <i class="fa fa-2x fa-phone-alt text-white"></i>
+                        </div>
+                        <div class="mt-n1">
+                            <h4>Call Us</h4>
+                            <p class="m-0">+012 345 6789</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="btn-icon bg-warning mr-4">
+                            <i class="fa fa-2x fa-envelope text-white"></i>
+                        </div>
+                        <div class="mt-n1">
+                            <h4>Email Us</h4>
+                            <p class="m-0">info@example.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="section-title position-relative mb-4">
+                    <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Need Help?</h6>
+                    <h1 class="display-4">Send Us A Message</h1>
+                </div>
+                <div class="contact-form">
+                        @if (TempData["SuccessMessage"] != null)
+                        {
+                            <script>
+                                window.onload = function () {
+                                    alert("@TempData["SuccessMessage"]");
+                                };
+                            </script>
+                        }
+
+                        @if (TempData["SuccessMessage"] != null)
+                        {
+                            <div class="modal fade" id="successModal" tabindex="-1" role="dialog">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Success</h5>
+                                            <button type="button" class="close" data-dismiss="modal">
+                                                <span>&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            @TempData["SuccessMessage"]
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <script>
+                                $(document).ready(function () {
+                                    $("#successModal").modal("show"); // Show modal when page loads
+                                });
+                            </script>
+                        }
+
+
+                    <form method="post" asp-action="sendContactMessage" asp-controller="Student">
+                        <div class="row">
+                            <div class="col-6 form-group">
+                                <input type="text" class="form-control border-top-0 border-right-0 border-left-0 p-0" name="contactName" placeholder="Your Name" required="required">
+                            </div>
+                            <div class="col-6 form-group">
+                                <input type="email" class="form-control border-top-0 border-right-0 border-left-0 p-0" name="contactEmail" placeholder="Your Email" required="required">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control border-top-0 border-right-0 border-left-0 p-0" name="contactSubject" placeholder="Subject" required="required">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control border-top-0 border-right-0 border-left-0 p-0" rows="5" name="contactMessage" placeholder="Message" required="required"></textarea>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary py-3 px-5" type="submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Back to Top -->
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary rounded-0 btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="~/website/vendor/jquery/jquery.min.js"></script>
+    <script src="~/website/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/website/assets/js/isotope.min.js"></script>
+    <script src="~/website/assets/js/owl-carousel.js"></script>
+    <script src="~/website/assets/js/counter.js"></script>
+    <script src="~/website/assets/js/custom.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="~/website/js/main.js"></script>
+</body>
+
+</html>

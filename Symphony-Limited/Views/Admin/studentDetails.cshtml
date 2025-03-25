@@ -1,0 +1,29 @@
+﻿@model Students
+@{
+    ViewData["Title"] = "studentDetails";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+
+<div class="container-fluid px-4">
+    <h2 class="mt-4 text-center text-uppercase" style="letter-spacing:4px">Student Details</h2>
+</div>
+
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <ul class="list-group">
+            <li class="list-group-item">Student id: @Model.student_id</li>
+            <li class="list-group-item">First Name: @Model.first_name</li>
+            <li class="list-group-item">Last Name: @Model.last_name</li>
+            <li class="list-group-item">Student Email: @Model.email</li>
+            <li class="list-group-item">Student Password: @Model.password</li>
+            <li class="list-group-item">Student Country: @Model.Country</li>
+            <li class="list-group-item">Student DOB: @Model.date_of_birth</li>
+            <li class="list-group-item">Student Phone Number: @Model.phone_number</li>
+            <li class="list-group-item">Student Gender: @Model.gender</li>
+        </ul>
+        <a asp-action="fetchStudents" asp-controller="Admin" class="btn btn-warning my-3">Back To List</a>
+    </div>
+    <div class="col-md-2"></div>
+</div>
+

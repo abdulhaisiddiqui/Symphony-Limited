@@ -1,0 +1,104 @@
+﻿@model List<Payment>
+@{
+    ViewData["Title"] = "fetchPayments";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+
+
+<style>
+    /* Custom default button styles */
+    .custom-btn {
+        background-color: #f8f9fa; /* Set default background color (light gray) */
+        color: #495057; /* Default text color (dark gray) */
+        border-color: #ced4da; /* Border color */
+        transition: background-color 0.2s, color 0.2s; /* Smooth hover transitions */
+    }
+
+        /* Hover styles */
+
+
+        /* Active styles for when the button is clicked */
+        .custom-btn:active {
+            background-color: #d6d8db; /* Even darker gray */
+            color: #000; /* Dark text */
+        }
+
+        /* Focus styles */
+        .custom-btn:focus {
+            outline: none; /* Remove default outline */
+            box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.25); /* Add subtle focus shadow */
+        }
+</style>
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+        <div class="row flex-lg-nowrap">
+            <div class="col mb-3">
+                <div class="e-panel card">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h6 class="mr-2"><span>Payments</span></h6>
+
+                        </div>
+                        <div class="e-table">
+                            <div class="table-responsive table-lg mt-3">
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th class="align-top">
+                                                <div class="custom-control custom-control-inline custom-checkbox custom-control-nameless m-0">
+                                                    <input type="checkbox" class="custom-control-input" id="all-items">
+                                                    <label class="custom-control-label" for="all-items"></label>
+                                                </div>
+                                            </th>
+
+                                            <th class="max-width">Payment Id</th>
+                                            <th class="max-width">Enrollment Id</th>
+                                            <th class="max-width">Transaction Id</th>
+                                            <th class="max-width">Amount</th>
+                                            <th class="max-width">Payment Status</th>
+                                            <th class="max-width">Payment Date</th>
+                                            <th>Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @{
+                                            foreach (var pay in Model)
+                                            {
+                                                <tr>
+                                                    <td class="align-middle">
+                                                        <div class="custom-control custom-control-inline custom-checkbox custom-control-nameless m-0 align-top">
+                                                            <input type="checkbox" class="custom-control-input" id="item-1">
+                                                            <label class="custom-control-label" for="item-1"></label>
+                                                        </div>
+                                                    </td>
+
+                                                    <td class="text-nowrap align-middle">@pay.PaymentId</td>
+                                                    <td class="text-nowrap align-middle">@pay.EnrollmentId</td>
+                                                    <td class="text-nowrap align-middle">@pay.TransactionId</td>
+                                                    <td class="text-nowrap align-middle">@pay.Amount</td>
+                                                    <td class="text-nowrap align-middle">@pay.PaymentStatus</td>
+                                                    <td class="text-nowrap align-middle">@pay.PaymentDate</td>
+                                                    <td class="text-center align-middle">
+                                                        <div class="btn-group align-top">
+
+
+                                                            <a class="btn btn-sm btn-outline-danger badge custom-btn" type="button" asp-action="deletePermissionPayment" asp-controller="Admin" asp-route-id="@pay.PaymentId"><i class="fa fa-trash"></i></a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            }
+                                        }
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-1"></div>
+</div>
+
+
+

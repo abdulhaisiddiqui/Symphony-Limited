@@ -1,0 +1,143 @@
+﻿
+
+@model List<Entrance_Exam>
+@{
+    ViewData["Title"] = "entranceExam";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Symphony | Online Computer Education</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="~/website/assets/css/fontawesome.css">
+    <link rel="stylesheet" href="~/website/assets/css/templatemo-scholar.css">
+    <link rel="stylesheet" href="~/website/assets/css/owl.css">
+    <link rel="stylesheet" href="~/website/assets/css/animate.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <!-- Favicon -->
+    <link href="~/website/img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="~/website/assets/lib/owlcarousel/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="~/website/css/style.css" rel="stylesheet">
+
+    @* bootstrap cdn *@
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQv9ZD3xkX6sI5uH3r50m7lO9Y2HCoPAMgxQ3Wt2kpKNJ4V9+P98FNHZb" crossorigin="anonymous">
+
+    @* owl carousel *@
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+
+</head>
+<body>
+<!-- Header Start -->
+<div class="jumbotron jumbotron-fluid page-header position-relative overlay-bottom" style="margin-bottom: 90px;">
+    <div class="container text-center py-5">
+        <h1 class="text-white display-1">Enterance Examination</h1>
+        <div class="d-inline-flex text-white mb-5">
+            <p class="m-0 text-uppercase"><a class="text-white" href="">Home</a></p>
+            <i class="fa fa-angle-double-right pt-1 px-3"></i>
+            <p class="m-0 text-uppercase">Enterance Examination</p>
+        </div>
+        <div class="mx-auto mb-5" style="width: 100%; max-width: 600px;">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-light bg-white text-body px-4 dropdown-toggle" type="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                        Courses
+                    </button>
+                        @Html.Partial("CoursesDropdown", ViewData["courses"])
+                </div>
+                <input type="text" class="form-control border-light" style="padding: 30px 25px;" placeholder="Keyword">
+                <div class="input-group-append">
+                    <button class="btn btn-secondary px-4 px-lg-5">Search</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Header End -->
+    @foreach (var exam in Model)
+                    {
+
+<!-- Exam Information Start -->
+<div class="container py-5">
+    <div class="row">
+        <div class="col-lg-7">
+            <div class="section-title position-relative mb-4">
+                <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Entrance Examination Details</h6>
+                <h1 class="display-4">Prepare for the Best Opportunity</h1>
+            </div>
+            <p>The entrance examination is your first step toward joining our community of passionate learners. The exam assesses your knowledge and readiness for our courses, ensuring you have the foundational skills needed for success. Here's everything you need to know:</p>
+
+            <h4 class="mt-4">Exam Details:</h4>
+                <ul>
+                        
+                    <li>Exam Date: @exam.examDate</li>
+                    <li>Exam Name: @exam.examName</li>
+                    <li>Duration: 2 hours</li>
+                    <li>Exam fee: @exam.examFee</li>
+                    <li>Format: Multiple choice questions and short answers</li>
+                    <li>Subjects: Based on the course you're interested in</li>
+            </ul>
+
+            <h4 class="mt-4">How to Apply:</h4>
+            <ul>
+                <li>Fill out the application form on our website.</li>
+                <li>Submit your documents (ID, qualification details, etc.).</li>
+                <li>Prepare for the exam by reviewing the study materials provided to you.</li>
+            </ul>
+                <form asp-action="RegisterForExam1" asp-controller="Student" method="post">
+                    <input type="hidden" name="examId" value="@exam.examId" />
+                        <input type="hidden" name="student_id" value="@Context.Session.GetString("studentLogin")" /> <!-- Example studentId -->
+                       
+                            <button type="submit" class="btn btn-primary py-2 px-4 mt-4">Apply Now</button>
+                       
+                </form>
+        </div>
+        <div class="col-lg-5">
+             <div class="position-relative h-100">
+                <img class="position-absolute w-100 h-100" src="~/website/img/Enterance Exam.jpg" style="object-fit: cover;">
+            </div>
+        </div>
+    </div>
+</div>
+                    }
+<!-- Exam Information End -->
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary rounded-0 btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="~/website/vendor/jquery/jquery.min.js"></script>
+    <script src="~/website/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/website/assets/js/isotope.min.js"></script>
+    <script src="~/website/assets/js/owl-carousel.js"></script>
+    <script src="~/website/assets/js/counter.js"></script>
+    <script src="~/website/assets/js/custom.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="~/website/js/main.js"></script>
+</body>
+
+</html>

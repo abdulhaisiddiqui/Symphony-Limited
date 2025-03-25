@@ -1,0 +1,28 @@
+﻿@model ContactUs
+@{
+    ViewData["Title"] = "deletePermissionContactMessages";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+
+
+<div class="container-fluid px-4">
+    <h2 class="mt-4 text-center text-uppercase" style="letter-spacing:4px">Aare You Sure You Wants To Delete This Contact?</h2>
+</div>
+
+<div class="row">
+    <div claas="col-md-2"></div>
+    <div claas="col-md-8">
+        <ul class="list-group">
+            
+            <li class="list-group-item">Course Id: @Model.contactId</li>
+            <li class="list-group-item">Course Instructor: @Model.contactName</li>
+            <li class="list-group-item">Course Lectures: @Model.contactEmail</li>
+            <li class="list-group-item">Course Name: @Model.contactSubject'</li>
+            <li class="list-group-item">Course Description: @Model.contactMessage</li>
+        </ul>
+        <a class="btn btn-warning my-3" asp-action="fetchContactMessages" asp-controller="Admin">Back To List</a>
+        <a class="btn btn-danger my-3" asp-action="deleteContact" asp-controller="Admin" asp-route-id="@Model.contactId">Delete</a>
+    </div>
+    <div claas="col-md-2"></div>
+</div>
+

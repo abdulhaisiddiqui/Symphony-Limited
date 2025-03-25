@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewData["Title"] = "addInstructor";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+
+<div class="container-fluid px-4">
+    <h2 class="mt-4 text-center text-uppercase" style="letter-spacing:4px">Add Courses</h2>
+</div>
+
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        
+        <form method="post" asp-action="addInstructor" asp-controller="Admin" enctype="multipart/form-data">
+            <input type="file" name="instructorImage" value="" class="form-control my-3" required />
+
+            <input type="text" name="instructorName" value="" class="form-control my-3" placeholder="Enter Instructor Name" required />
+            <input type="text" name="instructorFaculty" value="" class="form-control my-3" placeholder="Enter Instructor Faculty" required />
+            
+
+            <input type="submit" value="Add Instructor" class="btn btn-primary form-control my-3" />
+        </form>
+    </div>
+    <div class="col-md-2"></div>
+</div>

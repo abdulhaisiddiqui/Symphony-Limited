@@ -1,0 +1,30 @@
+﻿@model Students
+@{
+    ViewData["Title"] = "updateStudent";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+<div class="container-fluid px-4">
+    <h2 class="mt-4 text-center text-uppercase" style="letter-spacing:4px">Update Students</h2>
+</div>
+
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <form method="post" asp-action="updateStudent" asp-controller="Admin">
+            <input type="hidden" value="@Model.student_id" name="student_id" />
+            <input type="text" value="@Model.first_name" name="first_name" class="form-control my-3"placeholder="Enter Student First Name" />
+            <input type="text" value="@Model.last_name" name="last_name" class="form-control my-3" placeholder="Enter Student Last Name"/>
+            <input type="text" value="@Model.email" name="email" class="form-control my-3" placeholder="Enter Student Email"/>
+            <input type="text" value="@Model.password" name="password" class="form-control my-3" placeholder="Enter Student Password"/>
+            <input type="text" value="@Model.Country" name="Country" class="form-control my-3" placeholder="Enter Student Country"/>
+            <input type="date" value="@Model.date_of_birth" name="date_of_birth" class="form-control my-3" placeholder="Enter Student DOB"/>
+            <input type="text" value="@Model.gender" name="gender" class="form-control my-3" placeholder="Enter Student Gender"/>
+            <input type="text" value="@Model.phone_number" name="phone_number" class="form-control my-3" placeholder="Enter Student Contact Number"/>
+           
+            <input type="submit" value="Update" name="Update" class="form-control btn btn-primary my-3" />
+        </form>
+    </div>
+    <div class="col-md-2"></div>
+</div>
+
+

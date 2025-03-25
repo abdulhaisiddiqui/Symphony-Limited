@@ -1,0 +1,30 @@
+﻿@model Instructor
+@{
+    ViewData["Title"] = "updateInstructor";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <form method="post" asp-action="updateInstructor" asp-controller="Admin">
+            <input type="hidden" name="instructorId" value="@Model.instructorId" class="form-control my-3" />
+            <input type="text" name="instructorName" value="@Model.instructorName" class="form-control my-3" />
+            <input type="text" name="instructorFaculty" value="@Model.instructorFaculty" class="form-control my-3" />
+            <input type="hidden" name="instructorImage" value="@Model.instructorImage" class="form-control my-3" />
+            <input type="submit" name="submit" value="Update Instructor" class="btn btn-primary form-control my-3" />
+        </form>
+
+        <form method="post" asp-action="updateInstructorImage" asp-controller="Admin" enctype="multipart/form-data">
+            <input type="hidden" name="instructorId" value="@Model.instructorId" class="form-control my-3" />
+            <input type="hidden" name="instructorName" value="@Model.instructorName" class="form-control my-3" />
+            <input type="hidden" name="instructorFaculty" value="@Model.instructorFaculty" class="form-control my-3" />
+
+            <input type="file" name="instructorImage" value="@Model.instructorImage" class="form-control my-3" required />
+            <div class="bg-light d-inline-flex justify-content-center align-items-center align-top"> <img src="@("~/instructor_images/"+Model.instructorImage)" asp-append-version="true" style="width: 70px; height: 70px; border-radius: 3px;" /></div>
+
+            <input type="submit" name="submit" value="Update Instructor Image" class="btn btn-primary form-control my-3" />
+        </form>
+    </div>
+    <div class="col-md-2"></div>
+</div>

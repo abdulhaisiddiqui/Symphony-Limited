@@ -1,0 +1,146 @@
+﻿    @model List<Courses>
+@{
+    ViewData["Title"] = "fetchCourses";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+
+@* <div class="container-fluid px-4">
+    <h2 class="mt-4 text-center text-uppercase" style="letter-spacing:4px">All Courses</h2>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <a asp-action="addCourses" asp-controller="Admin" class="btn btn-primary">Add Courses</a>
+        <table class="table table-bordered table-striped text-center mt-3">
+            <thead>
+                <tr>
+                    <th>Course Name</th>
+                    <th>Course Description</th>
+                    <th>Course Duration</th>
+                    <th>Course Fee</th>
+                    <th>Options</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    foreach (var cour in Model)
+                    {
+                        <tr>
+                            <td>@cour.course_name</td>
+                            <td>@cour.course_description</td>
+                            <td>@cour.course_duration Months</td>
+                            <td>$@cour.course_fee</td>
+                            <td>
+                                <a asp-action="updateCourse" asp-controller="Admin" asp-route-id="@cour.course_id" class="btn btn-warning">Update</a>
+                                <a asp-action="deleteCoursePermission" asp-controller="Admin" asp-route-id="@cour.course_id" class="btn btn-danger">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                }
+
+            </tbody>
+        </table>
+    </div>
+</div>
+ *@
+
+
+<style>
+    /* Custom default button styles */
+    .custom-btn {
+        background-color: #f8f9fa; /* Set default background color (light gray) */
+        color: #495057; /* Default text color (dark gray) */
+        border-color: #ced4da; /* Border color */
+        transition: background-color 0.2s, color 0.2s; /* Smooth hover transitions */
+    }
+
+        /* Hover styles */
+
+
+        /* Active styles for when the button is clicked */
+        .custom-btn:active {
+            background-color: #d6d8db; /* Even darker gray */
+            color: #000; /* Dark text */
+        }
+
+        /* Focus styles */
+        .custom-btn:focus {
+            outline: none; /* Remove default outline */
+            box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.25); /* Add subtle focus shadow */
+        }
+</style>
+<div class="row">
+<div class="col-md-1"></div>
+<div class="col-md-10">
+<div class="row flex-lg-nowrap">
+    <div class="col mb-3">
+        <div class="e-panel card">
+            <div class="card-body">
+                <div class="card-title">
+                    <h6 class="mr-2"><span>Courses</span></h6>
+                            <a class="btn btn-sm btn-outline-secondary badge custom-btn" type="button" data-toggle="modal" data-target="#user-form-modal" asp-action="addCourses" asp-controller="Admin" asp-action="addCourses" asp-controller="Admin">Add Courses</a>
+                </div>
+                <div class="e-table">
+                    <div class="table-responsive table-lg mt-3">
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th class="align-top">
+                                        <div class="custom-control custom-control-inline custom-checkbox custom-control-nameless m-0">
+                                            <input type="checkbox" class="custom-control-input" id="all-items">
+                                            <label class="custom-control-label" for="all-items"></label>
+                                        </div>
+                                    </th>
+                                    
+                                    <th class="max-width">Course Image</th>
+                                    <th class="max-width">Course Name</th>
+                                    <th class="max-width">Course Instrustor</th>
+                                    <th class="max-width">Course Lectures</th>
+                                    <th class="max-width">Course Description</th>
+                                    <th class="max-width">Course Duration</th>
+                                    <th class="max-width">Course Fee</th>
+                                    <th class="max-width">Course Date</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @{
+                    foreach (var cour in Model)
+                    {
+                                <tr>
+                                    <td class="align-middle">
+                                        <div class="custom-control custom-control-inline custom-checkbox custom-control-nameless m-0 align-top">
+                                            <input type="checkbox" class="custom-control-input" id="item-1">
+                                            <label class="custom-control-label" for="item-1"></label>
+                                        </div>
+                                    </td>
+                                    <td class="align-middle text-center">
+                                          <div class="bg-light d-inline-flex justify-content-center align-items-center align-top"> <img src="@("~/course_images/"+cour.course_image)" asp-append-version="true"  style="width: 35px; height: 35px; border-radius: 3px;" /></div>
+                                    </td>
+                                    <td class="text-nowrap align-middle">@cour.course_name</td>
+                                    <td class="text-nowrap align-middle">@cour.course_instructor</td>
+                                    <td class="text-nowrap align-middle">@cour.course_lectures</td>
+                                    <td class="text-nowrap align-middle"><span>@cour.course_description</span></td>
+                                    <td class="text-nowrap align-middle"><span>@cour.course_duration Months</span></td>
+                                    <td class="text-nowrap align-middle"><span>$@cour.course_fee</span></td>
+                                    <td class="text-nowrap align-middle">@cour.DateAdded</td>
+                                    <td class="text-center align-middle">
+                                        <div class="btn-group align-top">
+                                            
+                                                            <a class="btn btn-sm btn-outline-warning badge custom-btn" type="button" data-toggle="modal" data-target="#user-form-modal" asp-action="updateCourse" asp-controller="Admin" asp-route-id="@cour.course_id">Edit</a>
+                                                            <a class="btn btn-sm btn-outline-danger badge custom-btn" type="button" asp-action="deleteCoursePermission" asp-controller="Admin" asp-route-id="@cour.course_id"><i class="fa fa-trash"></i></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                     }
+                    }
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="col-md-1"></div>
+</div>

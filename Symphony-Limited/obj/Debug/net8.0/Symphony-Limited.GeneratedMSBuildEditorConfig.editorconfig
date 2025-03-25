@@ -1,0 +1,287 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Symphony_Limited
+build_property.RootNamespace = Symphony_Limited
+build_property.ProjectDir = C:\Users\AST\Desktop\Symphony-Limited\Symphony-Limited\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\AST\Desktop\Symphony-Limited\Symphony-Limited
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Admin/addCourses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cYWRkQ291cnNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Admin/addEntranceExam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cYWRkRW50cmFuY2VFeGFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Admin/addFAQ.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cYWRkRkFRLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Admin/addInstructor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cYWRkSW5zdHJ1Y3Rvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Admin/deleteCoursePermission.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cZGVsZXRlQ291cnNlUGVybWlzc2lvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Admin/deleteEntranceExamPermission.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cZGVsZXRlRW50cmFuY2VFeGFtUGVybWlzc2lvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Admin/deletePermissionContactMessages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cZGVsZXRlUGVybWlzc2lvbkNvbnRhY3RNZXNzYWdlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Admin/deletePermissionCourseEnrollment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cZGVsZXRlUGVybWlzc2lvbkNvdXJzZUVucm9sbG1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Admin/deletePermissionFAQ.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cZGVsZXRlUGVybWlzc2lvbkZBUS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Admin/deletePermissionInstructor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cZGVsZXRlUGVybWlzc2lvbkluc3RydWN0b3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Admin/deletePermissionPayment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cZGVsZXRlUGVybWlzc2lvblBheW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Admin/deleteStudentExamsPermission.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cZGVsZXRlU3R1ZGVudEV4YW1zUGVybWlzc2lvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Admin/deleteStudentPermission.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cZGVsZXRlU3R1ZGVudFBlcm1pc3Npb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Admin/fetchContactMessages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cZmV0Y2hDb250YWN0TWVzc2FnZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Admin/fetchCourseEnrollment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cZmV0Y2hDb3Vyc2VFbnJvbGxtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Admin/fetchCourses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cZmV0Y2hDb3Vyc2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Admin/fetchEntranceExam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cZmV0Y2hFbnRyYW5jZUV4YW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Admin/fetchFAQs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cZmV0Y2hGQVFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Admin/fetchInstructor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cZmV0Y2hJbnN0cnVjdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Admin/fetchPayments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cZmV0Y2hQYXltZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Admin/fetchResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cZmV0Y2hSZXN1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Admin/fetchStudents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cZmV0Y2hTdHVkZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Admin/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Admin/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Admin/studentDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cc3R1ZGVudERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Admin/updateCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cdXBkYXRlQ291cnNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Admin/updatecourseEnrollment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cdXBkYXRlY291cnNlRW5yb2xsbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Admin/updateEntranceExam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cdXBkYXRlRW50cmFuY2VFeGFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Admin/updateFAQ.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cdXBkYXRlRkFRLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Admin/updateInstructor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cdXBkYXRlSW5zdHJ1Y3Rvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Admin/updateStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cdXBkYXRlU3R1ZGVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Shared/_Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Student/AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxBYm91dFVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Student/categoryCourses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxjYXRlZ29yeUNvdXJzZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Student/ContactUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxDb250YWN0VXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Student/Course.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxDb3Vyc2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Student/CourseDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxDb3Vyc2VEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Student/courseDetailCarousel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxjb3Vyc2VEZXRhaWxDYXJvdXNlbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Student/courseEnrollment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxjb3Vyc2VFbnJvbGxtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Student/CoursesCarousel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxDb3Vyc2VzQ2Fyb3VzZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Student/CoursesDropdown.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxDb3Vyc2VzRHJvcGRvd24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Student/Enroll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxFbnJvbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Student/entranceExam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxlbnRyYW5jZUV4YW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Student/FAQs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxGQVFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Student/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Student/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Student/Payment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxQYXltZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Student/PaymentConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxQYXltZW50Q29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Student/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Student/recentCourses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxyZWNlbnRDb3Vyc2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Student/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Student/RegisterForExam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxSZWdpc3RlckZvckV4YW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Student/Result.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxSZXN1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Student/TakeTest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxUYWtlVGVzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Student/_instructorCarousel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxfaW5zdHJ1Y3RvckNhcm91c2VsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Student/_instructorForCourseView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxfaW5zdHJ1Y3RvckZvckNvdXJzZVZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Student/_latestCourses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxfbGF0ZXN0Q291cnNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AST/Desktop/Symphony-Limited/Symphony-Limited/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-lygxewj6fd

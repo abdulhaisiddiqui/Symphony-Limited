@@ -1,0 +1,132 @@
+﻿
+@{
+    ViewData["Title"] = "Payment";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+@* <form asp-action="ProcessPayment" method="post">
+    <input type="hidden" name="enrollmentId" value="@ViewBag.Enrollment.enrollmentId" />
+    <div class="form-group">
+        <label for="cardNumber">Card Number</label>
+        <input type="text" id="cardNumber" name="cardNumber" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label for="expiryDate">Expiry Date</label>
+        <input type="text" id="expiryDate" name="expiryDate" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label for="cvv">CVV</label>
+        <input type="text" id="cvv" name="cvv" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Pay Now</button>
+</form>
+
+ *@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Symphony | Online Computer Education</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="~/website/img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="~/website/assets/lib/owlcarousel/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="~/website/css/style.css" rel="stylesheet">
+
+    @* bootstrap cdn *@
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQv9ZD3xkX6sI5uH3r50m7lO9Y2HCoPAMgxQ3Wt2kpKNJ4V9+P98FNHZb" crossorigin="anonymous">
+
+    @* owl carousel *@
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+
+
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-8 col-sm-10">
+            <div class="section-title position-relative mb-4 text-center">
+                <h6 class="d-inline-block position-relative text-success text-uppercase pb-2">Secure Payments<i class="ri-secure-payment-fill text-success"></i></h6>
+                <h1 class="display-4">Payment Details</h1>
+                <div class="text-center">
+                    
+
+                    <div>
+                        <h3>Course: @ViewBag.Course.course_name</h3>
+                        <p>Fee: $@ViewBag.Course.course_fee</p>
+                    </div>
+                </div>
+            </div>
+<form method="post" asp-action="ProcessPayment" asp-controller="Student">
+    <input type="hidden" name="enrollmentId" value="@ViewBag.Enrollment.enrollmentId" />
+    <div class="form-group">
+        <label for="email">Card Number*</label>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="ri-bank-card-fill"></i></span>
+            </div>
+            <input type="text" id="cardNumber" name="cardNumber" class="form-control" placeholder="Enter Your Card Number" required />
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="password">Expiry Date*</label>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text"><i class="fa fa-lock"></i></span>
+            </div>
+            <input type="text" id="expiryDate" name="expiryDate" class="form-control" placeholder="Expiry Date" required />
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="password">Cvv*</label>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text"><i class="fa fa-lock"></i></span>
+            </div>
+            <input type="text" id="cvv" name="cvv" class="form-control" placeholder="cvv" required />
+        </div>
+    </div>
+   
+    <button type="submit" class="btn btn-primary btn-block mt-3 py-3" style="transition: 0.3s ease;">Pay Now</button>
+</form>
+
+            </div>
+        </div>
+    </div>
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary rounded-0 btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="~/website/vendor/jquery/jquery.min.js"></script>
+    <script src="~/website/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/website/assets/js/isotope.min.js"></script>
+    <script src="~/website/assets/js/owl-carousel.js"></script>
+    <script src="~/website/assets/js/counter.js"></script>
+    <script src="~/website/assets/js/custom.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="~/website/js/main.js"></script>
+</body>
+
+</html>

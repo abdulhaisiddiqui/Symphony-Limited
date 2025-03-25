@@ -1,0 +1,21 @@
+﻿@model Entrance_Exam
+@{
+    ViewData["Title"] = "updateEntranceExam";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <form method="post" asp-action="updateEntranceExam" asp-controller="Admin">
+            <input type="hidden" name="examId" value="@Model.examId" class="form-control my-3" />
+            <input type="text" name="examName" value="@Model.examName" class="form-control my-3" />
+            <input type="date" name="examDate" value="@Model.examDate" class="form-control my-3" />
+            <input type="text" name="examFee" value="@Model.examFee" class="form-control my-3" />
+            <input type="date" name="CreatedAt" value="@Model.CreatedAt" class="form-control my-3" />
+            <input type="submit" name="submit" value="Update Exam" class="btn btn-primary form-control my-3" />
+        </form>
+    </div>
+    <div class="col-md-2"></div>
+</div>
+

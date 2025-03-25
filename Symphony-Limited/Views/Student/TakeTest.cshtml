@@ -1,0 +1,181 @@
+﻿@model Student_Exams
+
+@{
+    ViewData["Title"] = "Take Test";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Symphony | Online Computer Education</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="~/website/img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="~/website/assets/lib/owlcarousel/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="~/website/css/style.css" rel="stylesheet">
+
+    @* bootstrap cdn *@
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQv9ZD3xkX6sI5uH3r50m7lO9Y2HCoPAMgxQ3Wt2kpKNJ4V9+P98FNHZb" crossorigin="anonymous">
+
+    @* owl carousel *@
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+
+</head>
+<body>
+
+ <div class="container">
+<h1>Take Test for Exam: @Model.exam_id</h1>
+<p>Student ID: @Model.stu_id</p>
+
+<form method="post" asp-action="SubmitTestResults" asp-controller="Student">
+    <input type="hidden" name="studentExamId" value="@Model.studentExamId" />
+
+    <div>
+        <h4>1. What is the capital of France?</h4>
+        <input type="radio" id="q1a" name="q1" value="A" required /> <label for="q1a">A) London</label><br>
+        <input type="radio" id="q1b" name="q1" value="B" /> <label for="q1b">B) Paris</label><br>
+        <input type="radio" id="q1c" name="q1" value="C" /> <label for="q1c">C) Madrid</label><br>
+        <input type="radio" id="q1d" name="q1" value="D" /> <label for="q1d">D) Berlin</label><br>
+    </div>
+
+    <div>
+        <h4>2. What is 5 + 7?</h4>
+        <input type="radio" id="q2a" name="q2" value="A" /> <label for="q2a">A) 11</label><br>
+        <input type="radio" id="q2b" name="q2" value="B" /> <label for="q2b">B) 12</label><br>
+        <input type="radio" id="q2c" name="q2" value="C" /> <label for="q2c">C) 13</label><br>
+        <input type="radio" id="q2d" name="q2" value="D" /> <label for="q2d">D) 14</label><br>
+    </div>
+
+    <div>
+        <h4>3. Which planet is known as the Red Planet?</h4>
+        <input type="radio" id="q3a" name="q3" value="A" /> <label for="q3a">A) Earth</label><br>
+        <input type="radio" id="q3b" name="q3" value="B" /> <label for="q3b">B) Mars</label><br>
+        <input type="radio" id="q3c" name="q3" value="C" /> <label for="q3c">C) Venus</label><br>
+        <input type="radio" id="q3d" name="q3" value="D" /> <label for="q3d">D) Jupiter</label><br>
+    </div>
+
+    <div>
+        <h4>4. Who wrote 'Romeo and Juliet'?</h4>
+        <input type="radio" id="q4a" name="q4" value="A" /> <label for="q4a">A) Charles Dickens</label><br>
+        <input type="radio" id="q4b" name="q4" value="B" /> <label for="q4b">B) William Shakespeare</label><br>
+        <input type="radio" id="q4c" name="q4" value="C" /> <label for="q4c">C) Jane Austen</label><br>
+        <input type="radio" id="q4d" name="q4" value="D" /> <label for="q4d">D) Mark Twain</label><br>
+    </div>
+
+    <div>
+        <h4>5. Which element has the chemical symbol 'O'?</h4>
+        <input type="radio" id="q5a" name="q5" value="A" /> <label for="q5a">A) Oxygen</label><br>
+        <input type="radio" id="q5b" name="q5" value="B" /> <label for="q5b">B) Osmium</label><br>
+        <input type="radio" id="q5c" name="q5" value="C" /> <label for="q5c">C) Ozone</label><br>
+        <input type="radio" id="q5d" name="q5" value="D" /> <label for="q5d">D) Oganesson</label><br>
+    </div>
+
+    <div>
+        <h4>6. What is the largest ocean on Earth?</h4>
+        <input type="radio" id="q6a" name="q6" value="A" /> <label for="q6a">A) Atlantic</label><br>
+        <input type="radio" id="q6b" name="q6" value="B" /> <label for="q6b">B) Indian</label><br>
+        <input type="radio" id="q6c" name="q6" value="C" /> <label for="q6c">C) Arctic</label><br>
+        <input type="radio" id="q6d" name="q6" value="D" /> <label for="q6d">D) Pacific</label><br>
+    </div>
+
+    <div>
+        <h4>7. Which of the following is the largest country by area?</h4>
+        <input type="radio" id="q7a" name="q7" value="A" /> <label for="q7a">A) United States</label><br>
+        <input type="radio" id="q7b" name="q7" value="B" /> <label for="q7b">B) China</label><br>
+        <input type="radio" id="q7c" name="q7" value="C" /> <label for="q7c">C) Russia</label><br>
+        <input type="radio" id="q7d" name="q7" value="D" /> <label for="q7d">D) Canada</label><br>
+    </div>
+
+    <div>
+        <h4>8. Who painted the Mona Lisa?</h4>
+        <input type="radio" id="q8a" name="q8" value="A" /> <label for="q8a">A) Leonardo da Vinci</label><br>
+        <input type="radio" id="q8b" name="q8" value="B" /> <label for="q8b">B) Pablo Picasso</label><br>
+        <input type="radio" id="q8c" name="q8" value="C" /> <label for="q8c">C) Vincent van Gogh</label><br>
+        <input type="radio" id="q8d" name="q8" value="D" /> <label for="q8d">D) Michelangelo</label><br>
+    </div>
+
+    <div>
+        <h4>9. What is the boiling point of water in Celsius?</h4>
+        <input type="radio" id="q9a" name="q9" value="A" /> <label for="q9a">A) 100°C</label><br>
+        <input type="radio" id="q9b" name="q9" value="B" /> <label for="q9b">B) 90°C</label><br>
+        <input type="radio" id="q9c" name="q9" value="C" /> <label for="q9c">C) 110°C</label><br>
+        <input type="radio" id="q9d" name="q9" value="D" /> <label for="q9d">D) 80°C</label><br>
+    </div>
+
+    <div>
+        <h4>10. Which country is known as the Land of the Rising Sun?</h4>
+        <input type="radio" id="q10a" name="q10" value="A" /> <label for="q10a">A) China</label><br>
+        <input type="radio" id="q10b" name="q10" value="B" /> <label for="q10b">B) Japan</label><br>
+        <input type="radio" id="q10c" name="q10" value="C" /> <label for="q10c">C) India</label><br>
+        <input type="radio" id="q10d" name="q10" value="D" /> <label for="q10d">D) Thailand</label><br>
+    </div>
+
+            <button type="submit" style="border-color: rgba(122, 106, 216, 0.95); background-color:rgba(122, 106, 216, 0.95);" class="btn btn-primary py-2 px-4 d-none d-lg-block">Submit</button>
+</form>
+
+</div>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary rounded-0 btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="~/website/lib/easing/easing.min.js"></script>
+    <script src="~/website/lib/waypoints/waypoints.min.js"></script>
+    <script src="~/website/lib/counterup/counterup.min.js"></script>
+    <script src="~/website/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-e7iI6HnVYF8U9hOOBM6IK+pKpVhSLI2vS5pJvRX7BGTwR6O/l4lKAeGZ1r5hpIY9" crossorigin="anonymous"></script>
+    <!-- Bootstrap 5 JS (Include before closing </body>) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-e7iI6HnVYF8U9hOOBM6IK+pKpVhSLI2vS5pJvRX7BGTwR6O/l4lKAeGZ1r5hpIY9" crossorigin="anonymous"></script>
+    @* owl carouse *@
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                    0: { items: 1 },
+                    600: { items: 2 },
+                    1000: { items: 3 }
+                }
+            });
+        });
+    </script>
+
+    @* for dropdown *@
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var dropdownElementList = [].slice.call(document.querySelectorAll('.dropdown-toggle'));
+            var dropdownList = dropdownElementList.map(function (dropdownToggleEl) {
+                return new bootstrap.Dropdown(dropdownToggleEl);
+            });
+        });
+    </script>
+
+    <!-- Template Javascript -->
+    <script src="~/website/js/main.js"></script>
+</body>
+</html>

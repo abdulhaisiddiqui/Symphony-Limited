@@ -1,0 +1,39 @@
+﻿@model Courses
+@{
+    ViewData["Title"] = "updateCourse";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <form method="post" asp-action="updateCourse" asp-controller="Admin">
+            <input type="hidden" name="course_id" value="@Model.course_id" class="form-control my-3"/>
+            <input type="hidden" name="course_image" value="@Model.course_image" class="form-control my-3"/>
+            <input type="text" name="course_name" value="@Model.course_name" class="form-control my-3" required/>
+            <input type="text" name="course_instructor" value="@Model.course_instructor" class="form-control my-3" required />
+            <input type="text" name="course_lectures" value="@Model.course_lectures" class="form-control my-3" required />
+            <input type="text" name="course_description" value="@Model.course_description" class="form-control my-3" required />
+            <input type="date" name="DateAdded" value="@Model.DateAdded" class="form-control my-3" required />
+            <input type="text" name="course_duration" value="@Model.course_duration" class="form-control my-3" required />
+            <input type="text" name="course_fee" value="@Model.course_fee" class="form-control my-3" required />
+            <input type="submit" name="submit" value="Update Course" class="btn btn-primary form-control my-3"/>
+        </form>
+        <form method="post" asp-action="updateCourseImage" asp-controller="Admin" enctype="multipart/form-data">
+            <input type="hidden" name="course_id" value="@Model.course_id" class="form-control my-3" />
+
+            <input type="file" name="course_image" value="@Model.course_image" class="form-control my-3" required/>
+            <div class="bg-light d-inline-flex justify-content-center align-items-center align-top"> <img src="@("~/course_images/"+Model.course_image)" asp-append-version="true" style="width: 70px; height: 70px; border-radius: 3px;" /></div>
+
+            <input type="hidden" name="course_name" value="@Model.course_name" class="form-control my-3" />
+            <input type="hidden" name="course_instructor" value="@Model.course_instructor" class="form-control my-3" />
+            <input type="hidden" name="course_lectures" value="@Model.course_lectures" class="form-control my-3" />
+            <input type="hidden" name="course_description" value="@Model.course_description" class="form-control my-3" />
+            <input type="hidden" name="course_duration" value="@Model.course_duration" class="form-control my-3" />
+            <input type="hidden" name="course_fee" value="@Model.course_fee" class="form-control my-3" />
+            <input type="submit" name="submit" value="Update Course Image" class="btn btn-primary form-control my-3" />
+        </form>
+    </div>
+    <div class="col-md-2"></div>
+</div>
+

@@ -1,0 +1,106 @@
+﻿@model List<Course_Enrollment>
+@{
+    ViewData["Title"] = "fetchCourseEnrollment";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+
+
+<style>
+    /* Custom default button styles */
+    .custom-btn {
+        background-color: #f8f9fa; /* Set default background color (light gray) */
+        color: #495057; /* Default text color (dark gray) */
+        border-color: #ced4da; /* Border color */
+        transition: background-color 0.2s, color 0.2s; /* Smooth hover transitions */
+    }
+
+        /* Hover styles */
+
+
+        /* Active styles for when the button is clicked */
+        .custom-btn:active {
+            background-color: #d6d8db; /* Even darker gray */
+            color: #000; /* Dark text */
+        }
+
+        /* Focus styles */
+        .custom-btn:focus {
+            outline: none; /* Remove default outline */
+            box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.25); /* Add subtle focus shadow */
+        }
+</style>
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+        <div class="row flex-lg-nowrap">
+            <div class="col mb-3">
+                <div class="e-panel card">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h6 class="mr-2"><span>Enrolled Students in Courses</span></h6>
+
+                        </div>
+                        <div class="e-table">
+                            <div class="table-responsive table-lg mt-3">
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th class="align-top">
+                                                <div class="custom-control custom-control-inline custom-checkbox custom-control-nameless m-0">
+                                                    <input type="checkbox" class="custom-control-input" id="all-items">
+                                                    <label class="custom-control-label" for="all-items"></label>
+                                                </div>
+                                            </th>
+
+                                            <th class="max-width">Enrollment Id</th>
+                                            <th class="max-width">Student Id</th>
+                                            <th class="max-width">Student Name</th>
+                                            <th class="max-width">Course Id</th>
+                                            <th class="max-width">Course Name</th>
+                                            <th class="max-width">Enrollment Date</th>
+                                            <th class="max-width">Fee paid</th>
+                                            <th class="max-width">Payment Status</th>
+                                            <th>Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @{
+                                            foreach (var enroll in Model)
+                                            {
+                                                <tr>
+                                                    <td class="align-middle">
+                                                        <div class="custom-control custom-control-inline custom-checkbox custom-control-nameless m-0 align-top">
+                                                            <input type="checkbox" class="custom-control-input" id="item-1">
+                                                            <label class="custom-control-label" for="item-1"></label>
+                                                        </div>
+                                                    </td>
+
+                                                    <td class="text-nowrap align-middle">@enroll.enrollmentId</td>
+                                                    <td class="text-nowrap align-middle">@enroll.student_id</td>
+                                                    <td class="text-nowrap align-middle">@enroll.Student.first_name @enroll.Student.last_name</td>
+                                                    <td class="text-nowrap align-middle">@enroll.course_id</td>
+                                                    <td class="text-nowrap align-middle">@enroll.Course.course_name</td>
+                                                    <td class="text-nowrap align-middle">@enroll.enrollment_date</td>
+                                                    <td class="text-nowrap align-middle">@enroll.fee_paid</td>
+                                                    <td class="text-nowrap align-middle">@enroll.payment_status</td>
+                                                    <td class="text-center align-middle">
+                                                        <div class="btn-group align-top">
+
+                                                            
+                                                            <a class="btn btn-sm btn-outline-danger badge custom-btn" type="button" asp-action="deletePermissionCourseEnrollment" asp-controller="Admin" asp-route-id="@enroll.enrollmentId"><i class="fa fa-trash"></i></a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            }
+                                        }
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-1"></div>
+</div>
+

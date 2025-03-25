@@ -1,0 +1,130 @@
+﻿@model List<Students>
+@{
+    ViewData["Title"] = "fetchStudents";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+
+@* <div class="container-fluid px-4">
+    <h2 class="mt-4 text-center text-uppercase" style="letter-spacing:4px">All Students</h2>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-bordered table-striped text-center mt-3">
+            <thead>
+                <tr>
+                    <th>Student Name</th>
+                    <th>Students Country</th>
+                    <th>Students DOB</th>
+                    <th>Students Phone</th>
+                    <th>Options</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    foreach(var std in Model)
+                    {
+                        <tr>
+                            <td>@std.first_name @std.last_name</td>
+                            <td>@std.Country</td>
+                            <td>@std.date_of_birth</td>
+                            <td>@std.phone_number</td>
+                            <td>
+                            <a asp-action="studentDetails" asp-controller="Admin" asp-route-id="@std.student_id" class="btn btn-primary">Details</a>
+                            <a asp-action="updateStudent" asp-controller="Admin" asp-route-id="@std.student_id" class="btn btn-warning">Update</a>
+                            <a asp-action="deleteStudentPermission" asp-controller="Admin" asp-route-id="@std.student_id" class="btn btn-danger">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                }
+                
+            </tbody>
+        </table>
+    </div>
+</div>
+ *@
+
+<style>
+    /* Custom default button styles */
+    .custom-btn {
+        background-color: #f8f9fa; /* Set default background color (light gray) */
+        color: #495057; /* Default text color (dark gray) */
+        border-color: #ced4da; /* Border color */
+        transition: background-color 0.2s, color 0.2s; /* Smooth hover transitions */
+    }
+
+        /* Hover styles */
+
+
+        /* Active styles for when the button is clicked */
+        .custom-btn:active {
+            background-color: #d6d8db; /* Even darker gray */
+            color: #000; /* Dark text */
+        }
+
+        /* Focus styles */
+        .custom-btn:focus {
+            outline: none; /* Remove default outline */
+            box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.25); /* Add subtle focus shadow */
+        }
+</style>
+
+<div class="row flex-lg-nowrap">
+    <div class="col mb-3">
+        <div class="e-panel card">
+            <div class="card-body">
+                <div class="card-title">
+                    <h6 class="mr-2"><span>Users</span></h6>
+                </div>
+                <div class="e-table">
+                    <div class="table-responsive table-lg mt-3">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th class="align-top">
+                                        <div class="custom-control custom-control-inline custom-checkbox custom-control-nameless m-0">
+                                            <input type="checkbox" class="custom-control-input" id="all-items">
+                                            <label class="custom-control-label" for="all-items"></label>
+                                        </div>
+                                    </th>
+                                    <th>Photo</th>
+                                    <th class="max-width">Student Name</th>
+                                    <th class="max-width">Country</th>
+                                    <th class="sortable">Date Of Birth</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @{
+                    foreach(var std in Model)
+                    {
+                                <tr>
+                                    <td class="align-middle">
+                                        <div class="custom-control custom-control-inline custom-checkbox custom-control-nameless m-0 align-top">
+                                            <input type="checkbox" class="custom-control-input" id="item-1">
+                                            <label class="custom-control-label" for="item-1"></label>
+                                        </div>
+                                    </td>
+                                    <td class="align-middle text-center">
+                                        <div class="bg-light d-inline-flex justify-content-center align-items-center align-top" style="width: 35px; height: 35px; border-radius: 3px;"><i class="fa fa-fw fa-photo" style="opacity: 0.8;"></i></div>
+                                    </td>
+                                    <td class="text-nowrap align-middle">@std.first_name @std.last_name</td>
+                                            <td class="text-nowrap align-middle"><span>@std.Country</span></td>
+                                            <td class="text-nowrap align-middle"><span>@std.date_of_birth</span></td>
+                                    <td class="text-center align-middle">
+                                        <div class="btn-group align-top">
+                                                    <a class="btn btn-sm btn-outline-secondary badge custom-btn" type="button" data-toggle="modal" data-target="#user-form-modal" asp-action="studentDetails" asp-controller="Admin" asp-route-id="@std.student_id">Details</a>
+                                                    <a class="btn btn-sm btn-outline-secondary badge custom-btn" type="button" data-toggle="modal" data-target="#user-form-modal" asp-action="updateStudent" asp-controller="Admin" asp-route-id="@std.student_id">Edit</a>
+                                                    <a class="btn btn-sm btn-outline-secondary badge custom-btn" type="button" asp-action="deleteStudentPermission" asp-controller="Admin" asp-route-id="@std.student_id"><i class="fa fa-trash"></i></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                    }
+                                }
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+﻿@model Instructor
+@{
+    ViewData["Title"] = "deletePermissionInstructor";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+
+<div class="container-fluid px-4">
+    <h2 class="mt-4 text-center text-uppercase text-danger" style="letter-spacing:4px">Are Your Sure You Wants To Delete This FAQ?</h2>
+</div>
+
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <ul class="list-group">
+            <li class="list-group-item">Instructor Image: <img src="@("~/Instructor_images/"+Model.instructorImage)" asp-append-version="true" style="width: 70px; height: 70px; border-radius: 3px;" /></li>
+            <li class="list-group-item">Instructor id: @Model.instructorId</li>
+            <li class="list-group-item">Instructor Name: @Model.instructorName</li>
+            <li class="list-group-item">Instructor Faculty: @Model.instructorFaculty</li>
+
+        </ul>
+        <a asp-action="fetchFAQs" asp-controller="Admin" class="btn btn-warning my-3">Back To List</a>
+        <a asp-action="deleteInstructor" asp-controller="Admin" asp-route-id="@Model.instructorId" class="btn btn-danger">Delete</a>
+    </div>
+    <div class="col-md-2"></div>
+</div>

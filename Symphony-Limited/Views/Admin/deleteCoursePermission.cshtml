@@ -1,0 +1,28 @@
+﻿@model Courses
+@{
+    ViewData["Title"] = "deleteCoursePermission";
+    Layout = "~/Views/Shared/_Dashboard.cshtml";
+}
+
+<div class="container-fluid px-4">
+    <h2 class="mt-4 text-center text-uppercase" style="letter-spacing:4px">Aare You Sure You Wants To Delete This Course?</h2>
+</div>
+
+<div class="row">
+    <div claas="col-md-2"></div>
+    <div claas="col-md-8">
+        <ul class="list-group">
+            <li class="list-group-item">Course Image: <img src="@("~/course_images/"+Model.course_image)" asp-append-version="true" style="width: 70px; height: 70px; border-radius: 3px;" /></li>
+            <li class="list-group-item">Course Id: @Model.course_id</li>
+            <li class="list-group-item">Course Instructor: @Model.course_instructor</li>
+            <li class="list-group-item">Course Lectures: @Model.course_lectures</li>
+            <li class="list-group-item">Course Name: @Model.course_name'</li>
+            <li class="list-group-item">Course Description: @Model.course_description</li>
+            <li class="list-group-item">Course Duration: @Model.course_duration Months</li>
+            <li class="list-group-item">Course Fee: @Model.course_fee</li>
+        </ul>
+        <a class="btn btn-warning my-3" asp-action="fetchCourses" asp-controller="Admin">Back To List</a>
+        <a class="btn btn-danger my-3" asp-action="deleteCourse" asp-controller="Admin" asp-route-id="@Model.course_id">Delete</a>
+    </div>
+    <div claas="col-md-2"></div>
+</div>
